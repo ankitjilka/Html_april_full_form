@@ -1,0 +1,92 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+  border: wheat;
+  border-width: 5pt;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: #17193F;
+  margin-bottom: 20px;
+}
+
+.action-btns {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.btn {
+  width: 12rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.play {
+  background-color: #89B016;
+}
+
+.play:hover{
+  background-color: #6e8d12;
+}
+
+.pause {
+  background-color: #E7CF20;
+}
+
+.pause:hover{
+  background-color: #d0ba1d;
+}
+h3{
+  font-family: Calibri;
+  font-size: 25pt;
+  font-style: normal;
+  font-weight: bold;
+  color:SlateBlue;
+  text-align: center;
+  text-decoration: underline
+}
+h2{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30pt;
+  font-style: normal;
+  font-weight: bold;
+  color:#aa4456;
+  text-align: center;
+  text-decoration: underline
+}
+
+input[type=text], input[type=password],textarea {
+  width: 100%;
+  padding: 18px;
+  margin: 7px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=file]{
+  width: 20%;
+  border: solid;
+  height: 5%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15pt;
+  font-style: italic;
+
+}
